@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.DS_Store
+.env
+.pytest_cache
+.ruff_cache/
+.coverage
+htmlcov/
+data/
+outputs/
+cache/
+/artifacts
+/storage-location.json
+
+# Virtual environments
+.venv
+
+# This checkout's private settings and research stay local.
+/AGENTS.md
+/uv.toml
+/pytest.ini
+/docs/*
+!/docs/third-party/
+!/docs/images/
+/docs/images/*
+!/docs/images/main-workspace.png
+/scripts/
